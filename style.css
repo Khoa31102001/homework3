@@ -1,0 +1,68 @@
+    /* this is comment for css */
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    p {
+        color: #000 !important;
+    }
+    
+    #header {
+        margin: 15px;
+    }
+    
+    #header .header-img {
+        width: 70px;
+        height: 70px;
+        float: left;
+    }
+    
+    #header .header-content {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #header .bigheadercontent {
+        color: rgb(227, 162, 23);
+        margin-bottom: 25px;
+        text-shadow: 2px 2px #000;
+    }
+    
+    #header .smallheadercontent {
+        color: rgb(65, 212, 65);
+    }
+    
+    #content {
+        margin: 25px 15px;
+        color: #000;
+    }
+    
+    .text-pink {
+        color: pink;
+    }
+    
+    .text-green {
+        color: rgb(67, 227, 67);
+    }
+    
+    .text-opacity {
+        opacity: 0.6;
+    }
+    
+    .text-margin {
+        margin-left: 40px;
+        margin: 15px 0 0 30px;
+    }
+    
+    #content ul {
+        margin-top: 40px;
+        margin-left: 35px;
+        margin-bottom: 25px;
+    }
+    
+    #footer {
+        text-align: right;
+    }
